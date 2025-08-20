@@ -102,7 +102,6 @@ const config = {
             transform: "translateY(0px)",
           },
         },
-        // Fade in and out
         "fade-in": {
           "0%": {
             opacity: "0",

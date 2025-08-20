@@ -3,6 +3,8 @@ import "@/styles/globals.css";
 import { fontGeist, fontHeading, fontSans, fontUrban } from "@/assets/fonts";
 import { SessionProvider } from "next-auth/react";
 import { ThemeProvider } from "next-themes";
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 
 import { cn, constructMetadata } from "@/lib/utils";
 import { Toaster } from "@/components/ui/sonner";
@@ -32,11 +34,12 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <SessionProvider>
           <ThemeProvider
             attribute="class"
-            defaultTheme="system"
+            defaultTheme="light"
             enableSystem
             disableTransitionOnChange
           >
             <ModalProvider>{children}</ModalProvider>
+            <SpeedInsights />
             <Analytics />
             <Toaster richColors closeButton />
             <TailwindIndicator />

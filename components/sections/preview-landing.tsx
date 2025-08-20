@@ -4,13 +4,13 @@ import { Button } from "@/components/ui/button";
 
 export default function PreviewLanding() {
   const brandElements = [
-    { title: "Logo Design", desc: "Unique logos tailored to your brand", icon: "🎨" },
-    { title: "Color Palette", desc: "Harmonious color combinations", icon: "🌈" },
-    { title: "Typography", desc: "Perfect font pairings", icon: "🔤" },
+    // { title: "Logo Design", desc: "Unique logos tailored to your brand", icon: "🎨" },
     { title: "Brand Guidelines", desc: "Complete style documentation", icon: "📋" },
+    { title: "Typography", desc: "Perfect font pairings", icon: "🔤" },
     { title: "Social Media Kits", desc: "Ready-to-use templates", icon: "📱" },
     { title: "Business Cards", desc: "Professional card designs", icon: "💳" },
-    // { title: "Letterheads", desc: "Formal document templates", icon: "📄" },
+    { title: "Color Palette", desc: "Harmonious color combinations", icon: "🌈" },
+    { title: "Letterheads", desc: "Formal document templates", icon: "📄" },
     // { title: "Email Signatures", desc: "Professional email templates", icon: "✉️" },
     // { title: "Presentation Templates", desc: "Stunning slide designs", icon: "📊" }
   ];

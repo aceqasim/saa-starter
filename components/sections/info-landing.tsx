@@ -16,7 +16,7 @@ export default function InfoLanding({ data, reverse = false }: InfoLandingProps)
     <section className={`py-20 bg-background relative`}>
       <MaxWidthWrapper>
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-16">
-          <div className={`flex-1 ${reverse ? 'order-2 md:order-1' : 'order-1'}`}> 
+          <div className={`flex-1 ${reverse ? 'order-2 md:order-1' : 'order-1'}`}>
             <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground">
               {data.title}
             </h2>
@@ -35,7 +35,7 @@ export default function InfoLanding({ data, reverse = false }: InfoLandingProps)
               Learn More
             </Button>
           </div>
-          <div className={`flex-1 flex justify-center ${reverse ? 'order-1 md:order-2' : 'order-2'}`}> 
+          <div className={`flex-1 flex justify-center ${reverse ? 'order-1 md:order-2' : 'order-2'}`}>
             <Card className="rounded-2xl shadow-2xl max-w-full w-[400px] overflow-hidden flex items-center justify-center">
               <div className="aspect-video w-full h-auto">
                 <Image
